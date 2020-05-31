@@ -37,7 +37,7 @@
         "url": "git@github.com:SuhushinAS/stylelint-config.git"
     },
     "scripts": {
-        "lint": "eslint ./standards"
+        "lint": "eslint ./rules"
     },
     "version": "1.0.0"
 }
