@@ -1,0 +1,12 @@
+module.exports = {
+    extends: ['./pre.js'],
+    rules: {
+        'at-rule-no-vendor-prefix': true,
+        'declaration-no-important': true,
+        'media-feature-name-no-vendor-prefix': true,
+        'number-max-precision': 2,
+        'property-no-vendor-prefix': true,
+        'selector-no-vendor-prefix': true,
+        'value-no-vendor-prefix': true,
+    },
+};

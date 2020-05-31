@@ -1,0 +1,43 @@
+{
+    "author": "SuhushinAS",
+    "dependencies": {
+        "stylelint": "^13.5.0",
+        "stylelint-order": "^4.0.0"
+    },
+    "devDependencies": {
+        "@suhushinas/eslint-config": "^1.0.3",
+        "eslint": "^7.0.0",
+        "husky": "^4.2.5",
+        "lint-staged": "^10.2.4"
+    },
+    "engines": {
+        "node": "10"
+    },
+    "files": [
+        "rules/",
+        "post.js",
+        "pre.js"
+    ],
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "license": "UNLICENSED",
+    "lint-staged": {
+        "*.js": [
+            "eslint --fix",
+            "git add"
+        ]
+    },
+    "main": "./pre.js",
+    "name": "@suhushinas/stylelint-config",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:SuhushinAS/stylelint-config.git"
+    },
+    "scripts": {
+        "lint": "eslint ./standards"
+    },
+    "version": "1.0.0"
+}
