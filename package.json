@@ -4,30 +4,13 @@
         "stylelint": "^13.5.0",
         "stylelint-order": "^4.0.0"
     },
-    "devDependencies": {
-        "@suhushinas/eslint-config": "^2.0.7",
-        "eslint": "^7.0.0",
-        "husky": "^4.2.5",
-        "lint-staged": "^10.2.4"
-    },
     "engines": {
         "node": "10"
     },
     "files": [
         "rules/"
     ],
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
     "license": "UNLICENSED",
-    "lint-staged": {
-        "*.js": [
-            "eslint --fix",
-            "git add"
-        ]
-    },
     "main": "./rules/pre.json",
     "name": "@suhushinas/stylelint-config",
     "repository": {
@@ -35,7 +18,7 @@
         "url": "git@github.com:SuhushinAS/stylelint-config.git"
     },
     "scripts": {
-        "lint": "eslint ./rules"
+        "test": "echo \"No test specified\""
     },
     "version": "1.0.0"
 }
