@@ -5,7 +5,7 @@
         "stylelint-order": "^4.0.0"
     },
     "devDependencies": {
-        "@suhushinas/eslint-config": "^1.0.3",
+        "@suhushinas/eslint-config": "^2.0.7",
         "eslint": "^7.0.0",
         "husky": "^4.2.5",
         "lint-staged": "^10.2.4"
