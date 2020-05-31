@@ -14,9 +14,7 @@
         "node": "10"
     },
     "files": [
-        "rules/",
-        "post.js",
-        "pre.js"
+        "rules/"
     ],
     "husky": {
         "hooks": {
@@ -30,7 +28,7 @@
             "git add"
         ]
     },
-    "main": "./pre.js",
+    "main": "./rules/pre.json",
     "name": "@suhushinas/stylelint-config",
     "repository": {
         "type": "git",
